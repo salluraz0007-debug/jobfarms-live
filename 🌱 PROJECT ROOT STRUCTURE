@@ -1,0 +1,44 @@
+jobfarms-supreme-os/
+├── supabase_schema.sql
+├── .env.example
+├── scripts/
+│   ├── autoheal.ts
+├── src/
+│   ├── index.ts
+│   ├── lib/
+│   │    ├── supabase.ts
+│   │    ├── constants.ts
+│   ├── auth/
+│   │    └── SuperAdmin.ts
+│   ├── omnibuilder/
+│   │    ├── OmniBuilder.ts
+│   │    ├── AutoCheck.ts
+│   │    ├── AutoCorrect.ts
+│   │    ├── AutoHeal.ts
+│   │    ├── AutoGenerate.ts
+│   │    ├── SEOEngine.ts
+│   │    ├── LeadEngine.ts
+│   │    ├── SocialEngine.ts
+│   │    ├── PaymentEngine.ts
+│   │    ├── PincodeSEO.ts
+│   │    ├── GMBEngine.ts
+│   │    ├── Dashboard.ts
+│   │    ├── MarketingEngine.ts
+│   │    ├── ExternalSync.ts
+│   │    ├── SuperAutoUpgrade.ts
+│   │    ├── GenesisX.ts
+│   │    ├── ParishmaX.ts
+│   │    ├── SocialGhost.ts
+│   │    ├── Warden.ts
+│   ├── hrm/
+│   │    └── EmployeeAPI.ts
+│   ├── crm/
+│   │    └── CRMEngine.ts
+│   ├── shared/
+│   │    └── seo_generator.ts
+│   └── components/
+│        └── EmployeeDashboard.tsx
+├── .github/
+│   └── workflows/
+│         └── autopublish.yml
+├── README.md
